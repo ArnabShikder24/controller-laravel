@@ -20,11 +20,10 @@
         @endif
     </head>
     <body class="font-sans">
-        <form action="/febo-post" method="POST">
-            @csrf
-            <label for="febo">Give a number</label>
-            <input class="border" type="number" name="febo">
-            <input type="submit">
-        </form>
+        <ul>
+          @foreach ($febos as $febo)
+          <li>{{$febo}}</li>    
+          @endforeach
+        </ul>
     </body>
 </html>
