@@ -19,7 +19,7 @@
             </style>
         @endif
     </head>
-    <body class="font-sans">
+    <body class="font-sans text-center">
         <form action="/febo-post" method="POST">
             @csrf
             <label for="febo">Give a number</label>

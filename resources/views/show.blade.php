@@ -19,7 +19,7 @@
             </style>
         @endif
     </head>
-    <body class="font-sans">
+    <body class="font-sans text-center">
         <ul>
           @foreach ($febos as $febo)
           <li>{{$febo}}</li>    
