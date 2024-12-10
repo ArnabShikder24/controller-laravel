@@ -20,6 +20,7 @@
         @endif
     </head>
     <body class="font-sans text-center">
+        <h1>Febonacci</h1>
         <ul>
           @foreach ($febos as $febo)
           <li>{{$febo}}</li>    
